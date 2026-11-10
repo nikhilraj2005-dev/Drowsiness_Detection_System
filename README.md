@@ -1,9 +1,9 @@
-# 👁️ Eye Blink Detection Using Python
+#  Eye Blink Detection Using Python
 
-## 📌 Project Description
+##  Project Description
 This project detects eye movements and counts eye blinks in real time using a webcam. It uses OpenCV and MediaPipe Face Landmarker to identify facial landmarks and calculate the Eye Aspect Ratio (EAR).
 
-## ✨ Features
+##  Features
 - Real-time face landmark detection.
 - Detection of left and right eye landmarks.
 - Eye Aspect Ratio (EAR) calculation.
@@ -11,13 +11,13 @@ This project detects eye movements and counts eye blinks in real time using a we
 - Automatic blink counting.
 - Live webcam display.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Python
 - OpenCV
 - MediaPipe
 - NumPy
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 DDS/
@@ -31,7 +31,7 @@ DDS/
     └── eye_detection.png
 ```
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone this repository:
 
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 4. Make sure `face_landmarker.task` is present in the project folder.
 
-## ▶️ How to Run
+##  How to Run
 
 Execute the following command:
 
@@ -65,23 +65,23 @@ Your webcam will open and start detecting eye landmarks.
 
 Press **Q** to close the application.
 
-## 📸 Project Screenshot
+##  Project Screenshot
 
-![Eye Blink Detection](screenshots/eye_detection.png)
+![Eye Blink Detection](screenshots/Eye_detection.png)
 
-## 🧮 Eye Aspect Ratio (EAR)
+##  Eye Aspect Ratio (EAR)
 
 EAR is calculated using the vertical and horizontal distances between eye landmarks.
 
 It helps estimate whether the eyes are open or closed.
 
-## 🚀 Future Improvements
+##  Future Improvements
 - Improve blink detection accuracy.
 - Add a graphical user interface.
 - Add more visual statistics.
 - Explore additional facial landmark features.
 
-## 👨‍💻 Author
+##  Author
 **Nikhil Raj**
 
 CSE (AI & ML) Student
